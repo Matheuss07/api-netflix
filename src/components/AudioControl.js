@@ -9,7 +9,7 @@ const AudioControl = () => {
       <button className="audio-button">
         <MdVolumeUp />
       </button>
-      <div class="audio-separator"></div>
+      <div className="audio-separator"></div>
       <div className="audio-label">A12</div>
     </div>
     </div>
