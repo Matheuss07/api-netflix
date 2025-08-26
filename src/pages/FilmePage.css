@@ -1,6 +1,6 @@
 .filme-page{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 .filme-conteudo{
