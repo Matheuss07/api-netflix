@@ -1,0 +1,69 @@
+.card-filme-header {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(53, 49, 49);
+    background-image: url('../img/prisonBack.jpg');
+    background-size: cover;
+    background-position: center 20%; 
+    width: 1000px;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    
+}
+
+.card-filme-header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(24,24,24,0.85) 0%, rgba(24,24,24,0) 100%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center; 
+}
+
+
+.TituloHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    margin-top: 330px;
+}
+
+.AvaliacaoHeader{
+    display: flex;
+    color: white;
+    font-size: 70px;
+    font-weight: 500;   
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px black;
+    padding-right: 75px;
+    margin-top: 380px;
+    margin-bottom: 10px;
+
+}
+
+.IconeHeader{
+    display: flex;  
+    padding-left: 10px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.tittlePrison {
+    width: 400px; 
+    height: 60px;
+    object-fit: contain;
+}

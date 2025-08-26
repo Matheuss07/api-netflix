@@ -12,18 +12,19 @@ import MainRoutes from './routes';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
-root.render(
-  <React.StrictMode>
-    <App />  {/* rodando o App direto */}
-  </React.StrictMode>
-);
-
 // root.render(
 //   <React.StrictMode>
-//     <BrowserRouter>
-//       <MainRoutes /> {/* Aqui colocar as rotas */}
-//     </BrowserRouter>
+//     <App />  {/* rodando o App direto */}
 //   </React.StrictMode>
 // );
+
+
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <MainRoutes /> {/* Aqui colocar as rotas */}
+    </BrowserRouter>
+  </React.StrictMode>
+);
 
 reportWebVitals();

@@ -1,0 +1,13 @@
+.filme-page{
+    display: flex;
+    flex-direction: column;
+
+}
+.filme-conteudo{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
