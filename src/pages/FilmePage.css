@@ -6,39 +6,26 @@
   flex-direction:column;
 }
 
-/* grid: imagem à esquerda / detalhes à direita */
+
 .filme-conteudo{
   display:grid;
   grid-template-columns: 1.65fr 1fr;
   min-height:100vh
 }
 
-/* coluna da imagem */
 .bloco-imagem{
   position:relative;
   overflow:hidden;
 }
 
-/* cria o fade escuro para a direita (como na Netflix) */
-.bloco-imagem::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  background: linear-gradient(90deg,
-              rgba(0,0,0,0) 40%,
-              rgba(0,0,0,0.55) 62%,
-              rgba(0,0,0,0.85) 82%,
-              #000 100%);
-  pointer-events:none;
-}
 
-/* garante que o componente da foto ocupe toda a coluna */
+
 .bloco-imagem > *{
   height:100%;
   width:100%;
 }
 
-/* coluna dos detalhes */
+
 .bloco-detalhes{
   display:flex;
   align-items:center;
