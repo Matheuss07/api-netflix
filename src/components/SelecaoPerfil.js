@@ -12,7 +12,7 @@ import CardPerfil5 from './CardPerfil5';
 
 function SelecaoPerfil( {listaDeUsuarios}){
 
-    const listaDeCards = listaDeUsuarios.map(user => <CardPerfil usuario={user}/>);
+    // const listaDeCards = listaDeUsuarios.map(user => <CardPerfil usuario={user}/>);
 
     return (
         <div className='selecao-perfil'>

@@ -10,7 +10,7 @@
 .filme-conteudo{
   display:grid;
   grid-template-columns: 1.65fr 1fr;
-  min-height: calc(100vh - 72px); /* ajuste se o NavBar for maior/menor */
+  min-height:100vh
 }
 
 /* coluna da imagem */
@@ -44,21 +44,4 @@
   align-items:center;
   justify-content:flex-start;
   padding: 48px 56px;
-}
-
-/* limita a largura do conteúdo de detalhes */
-.bloco-detalhes .filme-detalhes{
-  max-width: 720px;
-  width: 100%;
-}
-
-/* responsivo */
-@media (max-width: 1100px){
-  .filme-conteudo{
-    grid-template-columns: 1fr;
-  }
-  .bloco-imagem::after{ display:none; }
-  .bloco-detalhes{
-    padding: 28px 20px 48px;
-  }
 }
