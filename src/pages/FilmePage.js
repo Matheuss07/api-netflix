@@ -1,20 +1,27 @@
-import './FilmePage.css'
-import FilmeHeader from '../components/FilmeHeader'
-import NavBar from '../components/NavBar'
-import FilmeDetalhe from '../components/FilmeDetalhes'
+import React from "react";
+import "./FilmePage.css";
+import NavBar from "../components/NavBar";
+import FilmeHeader from "../components/FilmeHeader";
+import FilmeDetalhe from "../components/FilmeDetalhes";
 
-function Filme(){
-    return(
-        <div className="filme-page">
-            <NavBar />
-            <div className='filme-conteudo'>
-            <FilmeHeader />
-             <FilmeDetalhe />
-             </div>
+const Filme = () => {
+  return (
+    <div className="filme-page">
+      <NavBar />
+
+      <section className="filme-conteudo">
+        <div className="bloco-imagem">
+          {/* FOTO/ARTE DE FUNDO */}
+          <FilmeHeader />
         </div>
-    );
-}
 
-
+        <div className="bloco-detalhes">
+          {/* TÍTULO, TAGS, SINOPSE, BOTÕES */}
+          <FilmeDetalhe />
+        </div>
+      </section>
+    </div>
+  );
+};
 
 export default Filme;

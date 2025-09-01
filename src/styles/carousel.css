@@ -5,6 +5,8 @@
     /* background-color: rgba(0, 0, 0, 0.37); */
     color: white;
     /* border: 1px solid #00ec33; */
+         overflow-x: auto;
+    scroll-behavior: smooth;  
   }
   
   .carousel-title {
@@ -16,6 +18,8 @@
     display: flex;
     gap: 15px;
     overflow: hidden; /* Impede rolagem */
+         overflow-x: auto;
+    scroll-behavior: smooth;  
   }
   
   .carousel-item {
@@ -36,7 +40,7 @@
     transform: scale(1.05);
   }
   
-   /* .carousel-overlay {
+   .carousel-overlay {
     position: absolute;
     bottom: 10px;
     left: 0;
@@ -46,7 +50,7 @@
     text-align: center;
     padding: 5px;
     font-size: 14px;
-  }  */
+  }  
 
 
    .carousel-number {
@@ -90,8 +94,8 @@
     display: flex;
     transform: scale(1.05);
     /* gap: 1px; */
-    /* overflow-x: auto;
-    scroll-behavior: smooth;  */
+/*      overflow-x: auto;
+    scroll-behavior: smooth;   */
   }
   
   .numbered-carousel .carousel-item {
