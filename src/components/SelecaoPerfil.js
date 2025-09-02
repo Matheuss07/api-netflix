@@ -7,7 +7,7 @@ import CardPerfil from '../components/CardPerfil'
 
 function SelecaoPerfil( {listaDeUsuarios}){
 
-    // const listaDeCards = listaDeUsuarios.map(user => <CardPerfil usuario={user}/>);
+     const listaDeCards = listaDeUsuarios.map(user => <CardPerfil usuario={user}/>);
 
     return (
         <div className='selecao-perfil'>
