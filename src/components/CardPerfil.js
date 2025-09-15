@@ -1,30 +1,27 @@
-// import '../styles/CardPerfil.css';
-// import {Link} from 'react-router-dom';
+import "../Styles/CardPerfil.css";
+import {Link} from 'react-router-dom'
 
-// function CardPerfil({usuario}){
-//   return (
-//     <Link to={'/home'} className="card-perfil">
-//         <img className="foto" src={usuario.foto}/>
-//         <span className='nome'>{usuario.nome}</span>
-//     </Link>
-//   );
-// }
-// export default CardPerfil;
+const CardPerfil = ({ usuario }) => {
 
-import '../styles/CardPerfil.css';
-import { Link } from 'react-router-dom';
+    const handleClick = () => {
+        localStorage.setItem('usuarioLogado', JSON.stringify(usuario));
+    }
 
-function CardPerfil({ usuario }) {
-  return (
-    <Link to="/home" className="card-perfil">
-      <img 
-        className="foto" 
-        src={usuario.foto || '/default-avatar.png'} 
-        alt={usuario.nome} 
-      />
-      <span className="nome">{usuario.nome}</span>
-    </Link>
-  );
+    return(
+
+        <Link to="/home"className="Perfil" onClick={handleClick}>
+
+            <img src={usuario.avatarImage} className="fotoPerfil"></img>
+
+            <span className='NomePerfil'>
+                
+                {usuario.apelidoName}
+            </span>
+
+        </Link>
+
+    );
+
 }
 
 export default CardPerfil;

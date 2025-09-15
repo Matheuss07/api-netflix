@@ -1,34 +1,29 @@
-.card-perfil{
+.Perfil{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4px;
-
+    gap: 10px;
     width: fit-content;
-
-    /* border: solid 2px red; */
+    cursor: pointer;
+    transition:  transform ease 200ms;
+    text-decoration: none;
+    
 }
 
-.card-perfil:hover > .foto{
-    outline: solid 4px #ffffff;
-    outline-offset: -4px;
-    box-sizing: border-box;
+.Perfil:hover{
+    transform: scale(1.1);
+    
 }
 
-.foto{
-    width: 128px;
-    height: 128px;
-    object-fit: cover;
+.fotoPerfil{
+    width: 160px;
+    height: 160px;
+    border-radius: 2px;
+    margin: 15px;
+    
+}   
 
-    border-radius: 4px;
-}
-
-.nome{
-    color: #999999;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.card-perfil:hover > .nome{
-    color: #ffffff;
+.NomePerfil{
+    color: white;
+    font-size: 25px;
 }

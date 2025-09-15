@@ -1,12 +1,13 @@
 // src/pages/Home.js
 import React from "react";
-import NavBar from '../components/NavBar';
-import MovieIcon from '../components/MovieIcon';
-import TitleComponent from "../components/TitleComponent";
-import MovieButtons from '../components/MovieButtons';
-import Carousel from "../components/Carousel";
-import NumberedCarousel from "../components/NumberedCarousel";
-import AudioControl from "../components/AudioControl";
+import NavBar from '../Components/NavBar';
+import filmeService from "../Services/FilmesService";
+import MovieIcon from '../Components/MovieIcon';
+import TitleComponent from "../Components/TitleComponent";
+import MovieButtons from '../Components/MovieButtons';
+import Carousel from "../Components/Carousel";
+import NumberedCarousel from "../Components/NumberedCarousel";
+import AudioControl from "../Components/AudioControl";
 import "./Home.css";
 import machos from '../img/movie-img/machos.jpg';
 import solteiros from '../img/movie-img/solteiros.jpg';
@@ -73,10 +74,12 @@ const movies4 = [
 ];
 
 const Home = () => {
+  const filmeTopo = filmeService.getRandomFilme();
   return (
     <div className="home">
       <NavBar />
       <MovieIcon />
+              <div className="tela" style={{ backgroundImage: `${filmeTopo.fotoThumbnail}` }}></div>
       <TitleComponent />
       <MovieButtons />
       <AudioControl />

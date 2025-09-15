@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import "./FilmePage.css";
 import NavBar from "../components/NavBar";
 import FilmeHeader from "../components/FilmeHeader";
@@ -11,12 +11,12 @@ const Filme = () => {
 
       <section className="filme-conteudo">
         <div className="bloco-imagem">
-          {/* FOTO/ARTE DE FUNDO */}
+          
           <FilmeHeader />
         </div>
 
         <div className="bloco-detalhes">
-          {/* TÍTULO, TAGS, SINOPSE, BOTÕES */}
+        
           <FilmeDetalhe />
         </div>
       </section>
@@ -24,4 +24,4 @@ const Filme = () => {
   );
 };
 
-export default Filme;
+export default Filme; */

@@ -1,6 +1,6 @@
 // 1° seção: imports
 //o ./ é para indicar que o arquivo está na mesma pasta.
-import '../styles/BotaoVazado.css'
+import '../Styles/BotaoVazado.css'
 
 // 2° seção: o componente
 function BotaoVazado(){

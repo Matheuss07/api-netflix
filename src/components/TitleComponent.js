@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/TitleComponent.css';
+import '../Styles/TitleComponent.css';
 
 function TitleComponent() {
     return (

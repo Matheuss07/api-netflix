@@ -1,4 +1,4 @@
-import '../styles/MovieButtons.css'
+import '../Styles/MovieButtons.css'
 import React from 'react';
 import { MdInfoOutline } from "react-icons/md";
 import { MdOutlinePlayArrow } from "react-icons/md";

@@ -1,23 +1,32 @@
-import '../styles/SelecaoPerfil.css'
-import BotaoVazado from '../components/BotaoVazado'
-import CardPerfil from '../components/CardPerfil'
+import "../Styles/SelecaoPerfil.css";
+import BotaoVazado from "../Components/BotaoVazado";
+import CardPerfil from "../Components/CardPerfil"
 
+function SelecaoPerfil ({listaDeUsuarios}) {
 
+    return(
+        
+        
+        <div className="selecao-perfil">
+            <h2>
+                Quem está assistindo? 
+            </h2>
 
+            <div className="janelas">
 
-function SelecaoPerfil( {listaDeUsuarios}){
+            {
+                listaDeUsuarios.map(user => 
+                    <CardPerfil key={user.id} usuario={user} />
+                )
+            }
 
-     const listaDeCards = listaDeUsuarios.map(user => <CardPerfil usuario={user}/>);
-
-    return (
-        <div className='selecao-perfil'>
-            <h2 className='titulo'>Quem está assistindo?</h2>
-            <div className='container-cards'>
-              {listaDeCards}
             </div>
+
             <BotaoVazado />
+
         </div>
+
     );
-}   
+}
 
 export default SelecaoPerfil;

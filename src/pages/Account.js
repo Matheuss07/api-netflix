@@ -98,8 +98,8 @@
 // export default Account;
 
 
-import React from 'react';
-import MenuLateral from '../components/MenuLateral';
+import React from 'react'
+import MenuLateral from '../Components/MenuLateral';
 import { MdOutlineArrowForwardIos } from "react-icons/md"; // Ícone de seta
 import { FaRegUserCircle } from "react-icons/fa"; // Ícone de usuário
 import { RiLockPasswordLine, RiProfileLine, RiParentLine, RiEdit2Line } from "react-icons/ri"; // Ícones de atalhos

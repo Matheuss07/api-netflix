@@ -1,64 +1,31 @@
-.selecao-perfil {
+.selecao-perfil{
     display: flex;
     flex-direction: column;
+    color: white;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 60px;
     
-    /* border: solid 3px blue; */
-
-    gap: 16px;
-    padding: 250px;
-    height: 100vh; 
-    width: 100vw;
-    background-color: #141414;
-    /* border-radius: 8px; */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.selecao-perfil h2 {
-    font-size: 52px;
-    font-weight: 500;
-    /* border: solid 3px blue; */
-    color: #ffffff; 
-    margin-bottom: 16px;
+h2{
+    font-size: 40px;
+    margin-bottom: -30px;
+
 }
 
-.container-cards{
+
+.janelas{
     display: flex;
     flex-direction: row;
-    gap: 64px;
+    gap: 20px;
+    justify-content: center;
 
-    margin-bottom: 64px;
-}
-.cards-container {
-    display: flex;
-    justify-content: center; 
-    align-items: flex-start; 
-    gap: 20px; 
-    flex-wrap: nowrap; 
-    /* border: solid 3px blue; */
-    width: 100%;
-    overflow-x: auto;
-    padding: 10px 0; 
 }
 
-.cards-container > * {
-    flex: 0 0 auto; 
-    max-width: 120px; 
-    background-color: #222;
-    border-radius: 8px; 
-    padding: 100px; 
-    text-align: center; 
-}
-.nav-bar{
-    background-color: #141414;
-}
-@media (max-width: 768px) {
-    .cards-container {
-        flex-direction: row; 
-        align-items: center;
-    }
-
-    .cards-container > * {
-        max-width: 100%; 
-    }
+.janelas:last-child{
+    border: 3px white solid;
+    width: 60px;
+    height: 60px;
 }

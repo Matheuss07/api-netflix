@@ -3,7 +3,7 @@
 //Por enquanto, essa página só terá o menu lateral
 import React from 'react';
 import './config.css'
-import MenuLateral from '../components/MenuLateral';
+import MenuLateral from '../Components/MenuLateral';
 
 function Config() {
   return (

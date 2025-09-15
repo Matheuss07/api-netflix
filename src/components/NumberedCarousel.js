@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/carousel.css";
+import "../Styles/carousel.css";
 
 const NumberedCarousel = ({ title, items }) => {
   return (
