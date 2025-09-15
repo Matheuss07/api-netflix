@@ -1,4 +1,4 @@
-import "../Styles/CardPerfil.css";
+import "./CardPerfil.css";
 import {Link} from 'react-router-dom'
 
 const CardPerfil = ({ usuario }) => {

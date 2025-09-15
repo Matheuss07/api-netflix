@@ -1,23 +1,18 @@
-.home {
-   
-  background-position-x: center;
-  height: 1000px;
-  background-repeat: no-repeat;
-  width: 100%; 
-  background-size: cover; 
-  background-position: center;
-  height: 1000px; 
-  width: 100vw; 
-  display: flex;
-  flex-direction: column;
-  color: white;
-  
-}
+    .tela{
+        /*background-image: url(../Imagens/Fundopadre.jpg);*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow-x: hidden;
+        height: 100vh;
+        width: 100vw;
 
-.carousel-section {
-  margin-top: 360px; 
-  display: flex;
-  flex-direction: column;
-  gap: 30px; 
-  
-}
+    }
+
+    .todosFilme{
+        background-color: #141414;
+        background: -moz-linear-gradient(top, rgba(255,0,0,0) 0%, #141414 50%);
+        background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%,#141414 25%);
+        height: 100%;
+
+    }

@@ -1,4 +1,4 @@
-import '../Styles/MenuLateral.css';
+import './MenuLateral.css';
 import { MdHomeFilled } from "react-icons/md";
 import { MdCreditCard } from "react-icons/md";
 import { MdCheckCircle } from "react-icons/md";

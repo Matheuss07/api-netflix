@@ -1,4 +1,4 @@
-import "../Styles/SelecaoPerfil.css";
+import "./SelecaoPerfil.css";
 import BotaoVazado from "../Components/BotaoVazado";
 import CardPerfil from "../Components/CardPerfil"
 

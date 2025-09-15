@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/AudioControl.css';
+import './AudioControl.css';
 import { MdVolumeUp } from "react-icons/md";
 
 const AudioControl = () => {

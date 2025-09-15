@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/NavBar.css';
+import './NavBar.css';
 import logo from '../img/netflix-logo-transparente.png';
 import { MdAccountCircle } from "react-icons/md";
 import { Link } from 'react-router-dom';

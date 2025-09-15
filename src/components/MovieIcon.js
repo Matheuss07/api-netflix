@@ -1,5 +1,5 @@
 import netfbg from '../img/netfbg.png';
-import '../Styles/MovieIcon.css'
+import './MovieIcon.css'
 import React from 'react'
 
 function MovieIcon() {
